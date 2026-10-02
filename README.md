@@ -23,7 +23,7 @@ My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with ov
 
 ## Featured Project
 
-### 📟 [yaPDP](https://github.com) — Web-Based PDP-11/70 Emulator
+### 📟 [yaPDP](https://github.com/amesk/yaPDP) — Web-Based PDP-11/70 Emulator
 A low-level, interactive DEC machine emulator that runs directly in the browser without any servers or plugins. It fully recreates the authentic 1970s mainframe computer room atmosphere.
 
 *   **Architectural Core:** Developed a cycle-accurate 16-bit CPU instruction decoder using pure JavaScript. Implemented trap/interrupt logic and Memory-Mapped I/O (MMIO).
@@ -32,7 +32,7 @@ A low-level, interactive DEC machine emulator that runs directly in the browser 
 *   **Desktop App:** Packaged for Windows and Linux using the **Tauri v2** framework (resulting in an ultra-compact ~19 MB build).
 *   **License:** MIT (Open Source).
 
-👉 **[Launch Live Demo](https://github.io)** | **[Source Code on GitHub](https://github.com)**
+👉 **[Launch Live Demo](https://amesk.github.io/yaPDP)** | **[Source Code on GitHub](https://github.com/amesk/yaPDP)**
 
 ## Technical Skills
 
