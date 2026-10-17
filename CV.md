@@ -25,7 +25,7 @@ My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with ov
 
 ## Featured Project
 
-### 📟 [yaPDP](https://github.com/amesk/yaPDP) — Interactive PDP-11/70 Environment
+### [yaPDP](https://github.com/amesk/yaPDP) — Interactive PDP-11/70 Environment
 An open-source JavaScript PDP-11/70 emulator and browser-based environment for exploring historical operating systems and software. The focus is not only on emulating the machine, but also on making classic computing workflows approachable and reproducible.
 
 *   **Emulation:** Implements the PDP-11/70 CPU and its machine-level behavior, including traps, interrupts, and memory-mapped I/O.
