@@ -10,7 +10,7 @@ I work across system architecture, hands-on software development, requirements, 
 
 ### [yaPDP — Interactive PDP-11/70 Emulator](https://github.com/amesk/yaPDP)
 
-An open-source JavaScript emulator that brings a PDP-11/70 computing environment to the browser. Explore historical operating systems, run classic software, and experiment with a virtual retro-computing environment.
+An open-source, browser-based PDP-11/70 environment for exploring historical computing. Boot classic operating systems and software, work with saved machine states, and share reproducible starting points—all through an interactive interface inspired by the original hardware.
 
 - **[Launch the live demo](https://amesk.github.io/yaPDP/)**
 - [Source code and releases](https://github.com/amesk/yaPDP)
