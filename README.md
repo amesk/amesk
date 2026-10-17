@@ -19,7 +19,7 @@ An open-source JavaScript emulator that brings a PDP-11/70 computing environment
 
 My professional experience includes software architecture and technical leadership for complex marine navigation products, as well as earlier work on embedded control and satellite communication systems.
 
-For my detailed career history, technical skills, patents, education, and additional project information, see the **[full professional profile](CV.md)**.
+For my detailed career history, technical skills, patents, education, and additional project information, see the **[full professional profile](CV.md)** or [download the CV as PDF](https://raw.githubusercontent.com/amesk/amesk/main/CV.pdf).
 
 ## Areas of interest
 
