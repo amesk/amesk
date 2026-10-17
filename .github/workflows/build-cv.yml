@@ -15,7 +15,7 @@ on:
       - ".github/workflows/build-cv.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -31,7 +31,8 @@ jobs:
 
       - name: Build CV PDF
         run: |
-          pandoc CV.md \
+          sed '1{/^# Alexey Eskenazi — Professional Profile$/d;}' CV.md > /tmp/CV.md
+          pandoc /tmp/CV.md \
             --from=markdown \
             --template=tools/cv-template.tex \
             --pdf-engine=xelatex \
@@ -51,10 +52,8 @@ jobs:
 
       - name: Commit updated PDF on main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        env:
-          GH_TOKEN: \${{ github.token }}
         run: |
-          if git diff --quiet -- CV.pdf; then
+          if git ls-files --error-unmatch CV.pdf >/dev/null 2>&1 && git diff --quiet -- CV.pdf; then
             echo "CV.pdf is already up to date."
             exit 0
           fi
