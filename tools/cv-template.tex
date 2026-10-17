@@ -1,0 +1,54 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,margin=0.72in,headheight=14pt,footskip=22pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{Liberation Sans}
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{174A6E}
+\definecolor{muted}{HTML}{536575}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}[\color{accent}\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.55em}
+\titlespacing*{\subsection}{0pt}{0.8em}{0.25em}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.3em,itemsep=0.15em,topsep=0.25em,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.5em,itemsep=0.15em,topsep=0.25em}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  urlcolor=accent,
+  pdfauthor={Alexey Eskenazi},
+  pdftitle={Alexey Eskenazi — Professional Profile}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\small\color{muted}Alexey Eskenazi \quad | \quad \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.38em}
+\setlength{\emergencystretch}{2em}
+\urlstyle{same}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+\begin{center}
+  {\LARGE\bfseries\color{accent} Alexey Eskenazi}\\[0.35em]
+  {\normalsize\color{muted} Software Architect \textbullet{} Lead Developer \textbullet{} Complex Systems Engineer}\\[0.25em]
+  {\small Saint Petersburg, Russia}
+\end{center}
+\vspace{0.3em}
+\hrule
+\vspace{0.7em}
+
+$body$
+
+\end{document}

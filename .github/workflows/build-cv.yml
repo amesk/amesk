@@ -1,0 +1,65 @@
+name: Build CV PDF
+
+on:
+  pull_request:
+    paths:
+      - "CV.md"
+      - "tools/cv-template.tex"
+      - ".github/workflows/build-cv.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "CV.md"
+      - "tools/cv-template.tex"
+      - ".github/workflows/build-cv.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and XeLaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes pandoc texlive-xetex texlive-latex-recommended texlive-latex-extra fonts-liberation
+
+      - name: Build CV PDF
+        run: |
+          sed '1{/^# Alexey Eskenazi — Professional Profile$/d;}' CV.md > /tmp/CV.md
+          pandoc /tmp/CV.md \
+            --from=markdown \
+            --shift-heading-level-by=-1 \
+            --template=tools/cv-template.tex \
+            --pdf-engine=xelatex \
+            --metadata=lang:en \
+            --output=CV.pdf
+          test -s CV.pdf
+          file CV.pdf | grep -q 'PDF document'
+
+      - name: Upload PDF preview for pull requests
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV-preview
+          path: CV.pdf
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Commit updated PDF on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if git ls-files --error-unmatch CV.pdf >/dev/null 2>&1 && git diff --quiet -- CV.pdf; then
+            echo "CV.pdf is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CV.pdf
+          git commit -m "docs: regenerate CV.pdf"
+          git push
