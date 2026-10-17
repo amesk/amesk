@@ -10,7 +10,7 @@ My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with ov
 | --- | --- |
 | **Name** | Alexey Eskenazi |
 | **Location** | Saint Petersburg, Russia |
-| **Specialization** | Airborne and shore-based software for marine navigation systems |
+| **Specialization** | Maritime navigation systems spanning shipboard and shore-based environments |
 
 ## Software Patents & Intellectual Property
 
@@ -49,7 +49,8 @@ An open-source JavaScript PDP-11/70 emulator and browser-based environment for e
 
 ### 2022 – Present
 **Evolution of Marine Digital Technologies LLC (EMDT)**  
-**Role:** Principal Software Engineer / Co-owner  
+**Role:** Principal Software Engineer / Co-owner
+
 *   Designing product architecture.
 *   Developing requirement specifications.
 *   Managing the entire software development lifecycle (SDLC).
@@ -57,9 +58,10 @@ An open-source JavaScript PDP-11/70 emulator and browser-based environment for e
 
 ---
 
-### 2018 – 2022  
+### 2018 – 2022
 **Wärtsilä Digital Technologies (Edge Platform Division)**  
-**Role:** Principal Software Engineer / Project Manager  
+**Role:** Principal Software Engineer / Project Manager
+
 *   Architected global enterprise products.
 *   Developed comprehensive technical specifications and requirements.
 *   Organized software release cycles and configuration management.
@@ -68,9 +70,10 @@ An open-source JavaScript PDP-11/70 emulator and browser-based environment for e
 
 ---
 
-### 2005 – 2018  
+### 2005 – 2018
 **Transas Technologies (Navigation Products Unit)**  
-**Role:** Principal Software Engineer / Project Manager  
+**Role:** Principal Software Engineer / Project Manager
+
 *   Designed architecture for marine navigation products.
 *   Managed product requirements and handled stakeholder communication.
 *   Supervised release management and configuration control.
@@ -78,34 +81,38 @@ An open-source JavaScript PDP-11/70 emulator and browser-based environment for e
 
 ---
 
-### 2001 – 2005  
+### 2001 – 2005
 **Transas Software House**  
-**Role:** Head of Product Management Team / Project Manager  
+**Role:** Head of Product Management Team / Project Manager
+
 *   Managed requirements gathering and software architecture.
 *   Allocated resources and set up automated build environments.
 *   Managed version control systems and early CI pipelines.
 
 ---
 
-### 1999 – 2001  
+### 1999 – 2001
 **Transas Software House**  
-**Role:** Lead Software Engineer  
+**Role:** Lead Software Engineer
+
 *   Analyzed customer business needs and drafted technical specifications.
 *   Designed software architecture and handled root-cause analysis for critical bugs.
 
 ---
 
-### 1994 – 1999  
+### 1994 – 1999
 **Saint Petersburg Research Institute of Radio (NIIR)**  
-**Role:** Head of Software Development Department / Software Engineer  
+**Role:** Head of Software Development Department / Software Engineer
+
 *   Developed software solutions for satellite communication systems.
 *   Coordinated closely with hardware and RF engineers.
 
 ---
 
-### 1992 – 1994  
+### 1992 – 1994
 **MODUS LLC**  
-**Role:** Software Engineer  
+**Role:** Software Engineer
+
 *   Developed embedded control systems for gas stations and CNC machinery.
 
 ## Education
@@ -115,6 +122,6 @@ Saint Petersburg State Technical University, Faculty of Technical Cybernetics.
 
 ## Contact
 
-Feel free to reach out via GitHub issues/discussions or use the contact details listed in my profile. 
+Feel free to reach out via GitHub issues/discussions or use the contact details listed in my profile.
 
 *If you need additional information or a full resume in a different format, please let me know!*
