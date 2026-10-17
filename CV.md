@@ -10,7 +10,7 @@ My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with ov
 | --- | --- |
 | **Name** | Alexey Eskenazi |
 | **Location** | Saint Petersburg, Russia |
-| **Specialization** | Maritime navigation systems spanning shipboard and shore-based environments |
+| **Specialization** | Software architecture and engineering for maritime navigation systems, covering both shipboard and shore-based systems |
 
 ## Software Patents & Intellectual Property
 
