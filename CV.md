@@ -25,14 +25,15 @@ My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with ov
 
 ## Featured Project
 
-### 📟 [yaPDP](https://github.com/amesk/yaPDP) — Web-Based PDP-11/70 Emulator
-A low-level, interactive DEC machine emulator that runs directly in the browser without any servers or plugins. It fully recreates the authentic 1970s mainframe computer room atmosphere.
+### 📟 [yaPDP](https://github.com/amesk/yaPDP) — Interactive PDP-11/70 Environment
+An open-source JavaScript PDP-11/70 emulator and browser-based environment for exploring historical operating systems and software. The focus is not only on emulating the machine, but also on making classic computing workflows approachable and reproducible.
 
-*   **Architectural Core:** Developed a cycle-accurate 16-bit CPU instruction decoder using pure JavaScript. Implemented trap/interrupt logic and Memory-Mapped I/O (MMIO).
-*   **Peripherals:** Emulated VT52/VT100 terminals (complete with CRT tube simulation), Model 33 ASR Teletype, and an LP11 line printer with realistic sound effects.
-*   **OS Magic:** Wrote prompt-aware automation scripts for instant booting of guest operating systems, including *Unix V5, BSD 2.11, ULTRIX-11, RT-11*, and more.
-*   **Desktop App:** Packaged for Windows and Linux using the **Tauri v2** framework (resulting in an ultra-compact ~19 MB build).
-*   **License:** MIT (Open Source).
+*   **Emulation:** Implements the PDP-11/70 CPU and its machine-level behavior, including traps, interrupts, and memory-mapped I/O.
+*   **Interactive environment:** Provides a historically oriented front-panel interface, emulated terminal and printer workflows, and browser-based access without requiring a local emulator setup.
+*   **Operating systems and software:** Supports prepared launch states for systems and programs such as Unix V5, 2.11BSD, RT-11, and classic games.
+*   **Snapshots and sharing:** Saves and restores machine states and supports sharing prepared states as reproducible entry points into an emulated system.
+*   **Engineering workflow:** Uses automated browser end-to-end tests and generated documentation to validate and explain complete user scenarios.
+*   **License:** MIT.
 
 👉 **[Launch Live Demo](https://amesk.github.io/yaPDP)** | **[Source Code on GitHub](https://github.com/amesk/yaPDP)**
 
