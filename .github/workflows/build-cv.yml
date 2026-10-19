@@ -31,7 +31,7 @@ jobs:
 
       - name: Build CV PDF
         run: |
-          sed '1{/^# Alexey Eskenazi — Professional Profile$/d;}' CV.md > /tmp/CV.md
+          sed '1{/^# Alexei Eskenazi — Professional Profile$/d;}' CV.md > /tmp/CV.md
           pandoc /tmp/CV.md \
             --from=markdown \
             --shift-heading-level-by=-1 \
