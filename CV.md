@@ -35,7 +35,7 @@ An open-source JavaScript PDP-11/70 emulator and browser-based environment for e
 *   **Engineering workflow:** Uses automated browser end-to-end tests and generated documentation to validate and explain complete user scenarios.
 *   **License:** MIT.
 
-👉 **[Launch Live Demo](https://amesk.github.io/yaPDP)** | **[Source Code on GitHub](https://github.com/amesk/yaPDP)**
+**[Launch Live Demo](https://amesk.github.io/yaPDP)** | **[Source Code on GitHub](https://github.com/amesk/yaPDP)**
 
 ## Technical Skills
 
