@@ -8,7 +8,7 @@ on:
       - ".github/workflows/build-cv.yml"
   push:
     branches:
-      - main
+      - master
     paths:
       - "CV.md"
       - "tools/cv-template.tex"
