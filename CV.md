@@ -2,13 +2,13 @@
 
 > Detailed career history, technical skills, patents, and selected engineering work.
 
-My name is Alexey Eskenazi. I am a Software Architect and Lead Developer with over 25 years of experience in software engineering, project management, and complex systems architecture.
+My name is Alexei Eskenazi. I am a Software Architect and Lead Developer with over 25 years of experience in software engineering, project management, and complex systems architecture.
 
 ## Quick Overview
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Alexey Eskenazi |
+| **Name** | Alexei Eskenazi |
 | **Location** | Saint Petersburg, Russia |
 | **Specialization** | Software architecture and engineering for maritime navigation systems, covering both shipboard and shore-based systems |
 
