@@ -1,4 +1,4 @@
-# Alexey Eskenazi — Professional Profile
+# Alexei Eskenazi — Professional Profile
 
 > Detailed career history, technical skills, patents, and selected engineering work.
 
